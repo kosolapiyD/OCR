@@ -1,0 +1,15 @@
+.homeContainer {
+    /* width: 80%; */
+}
+
+.info {}
+
+.paragraph {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.paragraph svg {
+    padding-inline-start: 10px;
+}
