@@ -1,0 +1,22 @@
+.uploadContainer {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    height         : 150px;
+
+    padding      : 20px;
+    margin       : 20px;
+    border       : 2px dashed #ccc;
+    border-radius: 15px;
+    cursor       : pointer;
+}
+
+.uploadContainer.active {
+    background-color: #464545;
+    transition      : background-color 0.3s ease;
+}
+
+.uploadContainer:hover {
+    background-color: #464545;
+    transition      : background-color 0.3s ease;
+}
