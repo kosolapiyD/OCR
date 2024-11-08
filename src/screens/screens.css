@@ -1,0 +1,30 @@
+.homeContainer {
+    /* width: 80%; */
+}
+
+.info {}
+
+.paragraph {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.paragraph svg {
+    padding-inline-start: 10px;
+}
+
+button.homeScreenBtn {
+    margin          : 20px 0;
+    background-color: #464545;
+    transition      : background-color 0.3s ease;
+}
+
+button.homeScreenBtn:hover {
+    background-color: #363636;
+    transition      : all 0.3s ease;
+}
+
+/* .ocrResultsContainer .ocrResultsBox {
+    text-align: start;
+} */
