@@ -6,7 +6,7 @@ const OCRImages = async (imagesData: string[], options?: any) => {
   console.log('imagesData', imagesData);
   const worker = await createWorker(['eng', 'heb'], 1, {
     logger: (m) => {
-      // console.log('m', m.progress);
+      // console.log('m', m.progress * 100);
     },
   });
 
